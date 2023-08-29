@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import useSound from "use-sound"
 import play from "../sounds/play.wav"
 import correct from "../sounds/correct.wav"
-import wait from "../sounds/wait.wav"
 import wrongs from "../sounds/wrong.mp3"
 
 export default function Ttivia({
@@ -18,7 +17,6 @@ export default function Ttivia({
   const [letsPlay] =useSound(play)
   const [correctAnswer] =useSound(correct)
   const [wrongAnswer] =useSound(wrongs)
-  const [waitAnswer] =useSound(wait)
 
   useEffect(()=> {
     letsPlay()
