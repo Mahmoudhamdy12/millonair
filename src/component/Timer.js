@@ -1,5 +1,5 @@
 import { useEffect,useState } from "react"
-import useSound from "use-sound";
+// import useSound from "use-sound";
 // import wrong from "../sounds/wrong.mp3"
 
 export const Timer = ({setStop, questionNumber}) => {
